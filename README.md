@@ -48,11 +48,11 @@ When then environment is activated, install everything using 'pipenv' instead of
 
 The Pipfile records what you have installed (thus only run the packages installation once) and in the Pipfile.lock are the packages checksums.
 
-Close the environment with Crt + d
+Close the environment with Crtl + d
 
-To use the environment, run pipenv shell and deploy the model as said in the next section.
+To use the environment, run ```pipenv shell``` and deploy the model as said in the next section.
 
-### Apply the deployment
+##  Apply the deployment
 
 In the active environment and open the web server by running:
 
@@ -68,7 +68,7 @@ The output (if that client will open a deposit or not and the probability) will 
 
 Close the web server with Ctrl + c.
 
-### Docker
+##  Docker
 
 We do not need to install packages, activate environments, train models,... everytime we want to know if a new patient will get stroke or not. We can skip the former sections using a Docker container.
 
