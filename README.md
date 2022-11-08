@@ -8,6 +8,7 @@
     
 Goal : 
 Our objective is to predict whether a patient is likely to get stroke (Target feature : ```stroke``` (0/1)) based on the features from given data using ML techniques.
+
 This project is a part of the [ml-zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) course
 
 Data :
