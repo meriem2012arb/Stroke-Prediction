@@ -90,9 +90,9 @@ In the active environment and open the web server by running:
 
 The data of a new patient are written in 'predict_test.py'. Test the deployment by running it in other shell:
 
-```python3 predict_test_deposit.py```
+```python3 predict_test.py```
 
-The output (if that client will open a deposit or not and the probability) will be written in the shell.
+The output (if that client will get a stroke or not and the probability) will be written in the shell.
 
 Close the web server with Ctrl + c.
 
@@ -108,12 +108,12 @@ Exit the container shell with Ctrl + d.
 
 The Dockerfile is this folder installs python, runs pipenv to install packages and dependencies, runs the predict.py script to open the web server and the  model and deploys it using gunicorn
 
-```docker built -t docker-deposit```
+```docker built -t docker-stroke .```
 (the last point means 'here', i.e., run it in the environment folder).
 
 Run the docker container with:
 
-```docker run -it --rm -p 9696:9696 docker-deposit```
+```docker run -it --rm -p 9696:9696 docker-stroke```
 
 and the model will be deployed and ready to use.
 
