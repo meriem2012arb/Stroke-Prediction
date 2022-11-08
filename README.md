@@ -76,6 +76,10 @@ Close the environment with Crtl + d
 
 To use the environment, run ```pipenv shell``` and deploy the model as said in the next section.
 
+Run ```train.py``` for train and save the model. 
+
+```python3 train.py```
+
 ##  Apply the deployment
 
 In the active environment and open the web server by running:
@@ -115,7 +119,7 @@ and the model will be deployed and ready to use.
 
 To send a new request, open a new shell in the enviroment directory and directly run:
 
-python predict_test.py
+```python3 predict_test.py```
 
 and you will see if the patient will get a stroke or not and its probability.
 
