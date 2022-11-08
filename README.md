@@ -28,7 +28,31 @@ The dataset dowloaded is  from [Kaggle](https://www.kaggle.com/datasets/fedesori
  *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
  ```
 ### Table of Contents :
------
+
+```Dockerfile``` of a Docker container
+
+```Pipfile```  for the virtual environment using pipenv
+
+```Pipfile.lock```  for the virtual environment using pipenv
+
+```dv.bin```  Pre-made DictVectorizer object, necessary for creating the data structures needed for prediction
+
+```healthcare-dataset-stroke-data.csv``` Dataset
+
+```model00.bin``` pre-trained model.
+
+```notebook.ipynb``` Jupyter notebook with the Exploratory Data Analysis and Model selection
+
+```predict.py``` Model loading and web service deployment
+
+```predict_test.py``` Output testing locally
+
+```requirements.txt``` requirements file for ```predict.py``` deployment
+
+```train.py``` Final model training and saving with ```pickle```
+
+
+
 ### Run the Code
 
 
