@@ -30,7 +30,8 @@ The dataset dowloaded is  from [Kaggle](https://www.kaggle.com/datasets/fedesori
 ### Table of Contents :
 -----
 ### Run the Code
-Create a new virtual environment named ```stroke``` with Python 3.9.12, you can give it any name as youlike .
+Create a new virtual environment named ```stroke``` with Python 3.9.12, you can give it any name as you like .
+
 ```conda create --name stroke python=3.9.12 ```
 
 
