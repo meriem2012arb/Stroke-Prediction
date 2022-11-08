@@ -1,4 +1,5 @@
 # Stroke Prediction
+
 # Project Description 
 
 #### About stroke : A stroke, sometimes called a brain attack, occurs when something blocks blood supply to part of the brain or when a blood vessel in the brain bursts.
@@ -7,6 +8,7 @@
     
 Goal : 
 Our objective is to predict whether a patient is likely to get stroke (Target feature : ```stroke``` (0/1)) based on the features from given data using ML techniques.
+This project is a part of the [ml-zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) course
 
 Data :
 The dataset dowloaded is  from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
