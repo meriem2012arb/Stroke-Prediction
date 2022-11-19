@@ -87,7 +87,7 @@ Run ```train.py``` for train and save the model.
 
 In the active environment and open the web server by running:
 
-```gunicorn --bind 0.0.0.0:9696 predict_deposit:app```
+```gunicorn --bind 0.0.0.0:9696 predict:app```
 
 (use 'waitress' instead of 'gunicorn' if you are in Windows).
 
